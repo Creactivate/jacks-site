@@ -21,7 +21,7 @@ function App() {
   const imageURLs = fileObject.images;
 
   return (
-    <HashRouter basename='/'>
+    <Router>
       <div className="App">
 
         <Navbar fixed='top' expand='lg' bg="dark" variant="dark"> 
@@ -44,7 +44,7 @@ function App() {
 
         <Switch>
 
-          <Route path='/' exact>
+          <Route path='/jacks-site/' exact>
             <div className='App-Body'>
               {imageURLs.map((image, index) => 
                 <>
@@ -74,7 +74,7 @@ function App() {
         </Switch>
         <FooterComp/>
       </div>
-    </HashRouter>
+    </Router>
     
   );
 }
