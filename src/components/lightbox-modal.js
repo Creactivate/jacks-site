@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -7,8 +7,6 @@ function LightBoxModal(props) {
 
   useEffect(() => {
     if (props.show.show) {
-      let fired = false;
-    let hover = false;
 
     let next = document.querySelector('.carousel-control-next');
     let prev = document.querySelector('.carousel-control-prev');
@@ -20,11 +18,6 @@ function LightBoxModal(props) {
     prev.addEventListener('mouseenter', (event) => {event.target.firstChild.style.display = 'block'});
 
     }
-    
-
-    
-
-
 
   });
     

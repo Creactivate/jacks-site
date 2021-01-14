@@ -1,14 +1,11 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route, Link
+  Route, Link, HashRouter,
 } from "react-router-dom";
 import React, {useState} from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Media from 'react-bootstrap/Media';
-import Button from 'react-bootstrap/Button';
-import LightBoxItem from './components/lightbox';
 import LightBoxModal from './components/lightbox-modal';
 import fileObject from './components/imageCount.json';
 import FooterComp from './components/FooterComp';
@@ -24,7 +21,7 @@ function App() {
   const imageURLs = fileObject.images;
 
   return (
-    <Router>
+    <HashRouter basename='/'>
       <div className="App">
 
         <Navbar fixed='top' expand='lg' bg="dark" variant="dark"> 
@@ -77,7 +74,7 @@ function App() {
         </Switch>
         <FooterComp/>
       </div>
-    </Router>
+    </HashRouter>
     
   );
 }
