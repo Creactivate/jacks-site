@@ -9,6 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import LightBoxModal from './components/lightbox-modal';
 import fileObject from './components/imageCount.json';
 import FooterComp from './components/FooterComp';
+import Container from 'react-bootstrap/Container';
 
 
 function App() {
@@ -23,28 +24,27 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Container className='sideNav'>
+          
 
-        <Navbar fixed='top' expand='lg' bg="dark" variant="dark"> 
+            
+              <Link className='navbarBrand' to="/">Jack Poppleton Art</Link>
+            
 
-          <Navbar.Brand>
-            <Link className='navbar-brand' to="/">Jack Poppleton Art</Link>
-          </Navbar.Brand>
+            
+                <Link className='navLink' to="/home">About</Link>
+                <Link className='navLink' to="/features">Gallery</Link>
+                <Link className='navLink' to="/pricing">Contact</Link>
+              
+            
 
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto">
-              <Link className='nav-link' to="/home">About</Link>
-              <Link className='nav-link' to="/features">Gallery</Link>
-              <Link className='nav-link' to="/pricing">Contact</Link>
-            </Nav>
-          </Navbar.Collapse>
-
-        </Navbar>
+        
+        </Container>
+        
 
         <Switch>
 
-          <Route path='/jacks-site/' exact>
+          <Route path='/jacks-site' exact>
             <div className='App-Body'>
               {imageURLs.map((image, index) => 
                 <>
