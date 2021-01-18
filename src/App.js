@@ -50,7 +50,7 @@ function App() {
                 <>
                   <img
                     className='imageThumbnail'
-                    src={'jacks-site/images/'+image}
+                    src={'./images/'+image}
                     alt=''
                     activeindex={index+1} 
                     onClick={()=>{onShowChange(true,index)}}
@@ -61,7 +61,7 @@ function App() {
 
               <LightBoxModal 
                 images={imageURLs.map(url => ({
-                  src:'jacks-site/images/'+url,
+                  src:'./images/'+url,
                   alt:'',description:'',
                   title:''
                 }))} 
