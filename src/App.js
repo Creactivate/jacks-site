@@ -134,7 +134,7 @@ function App() {
                 <img onLoad={flicker} className="firstScreenImage" src="./images/jack-poppleton-untitled-2.jpg" alt=""/>
               </div>
               
-              <Link className="firstScreenClose" href="/jacks-site/enter">Enter Site</Link>
+              <Link className="firstScreenClose" to="/jacks-site/enter">Enter Site</Link>
             </div>
           </Route>
 
