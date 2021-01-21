@@ -85,7 +85,7 @@ function App() {
           
 
             
-              <Link className='navbarBrand' to="/"><img src="./images/jack-signature.png" alt="" /></Link>
+              <Link className='navbarBrand' to="/"><img src="./jack-signature.png" alt="" /></Link>
             
 
             
@@ -130,7 +130,7 @@ function App() {
           <Route path="/jacks-site/">
             <div className="firstScreen">
               <div className="cont">
-                <img src="./images/jack-signature.png" className="firstScreenLogo fade-in" alt="" />
+                <img src="./jack-signature.png" className="firstScreenLogo fade-in" alt="" />
                 <img onLoad={flicker} className="firstScreenImage" src="./images/jack-poppleton-untitled-2.jpg" alt=""/>
               </div>
               
