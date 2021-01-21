@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/jacks-site/static/css/main.87b658b0.chunk.css",
-    "main.js": "/jacks-site/static/js/main.8eb7580f.chunk.js",
-    "main.js.map": "/jacks-site/static/js/main.8eb7580f.chunk.js.map",
+    "main.css": "/jacks-site/static/css/main.4e5f0f37.chunk.css",
+    "main.js": "/jacks-site/static/js/main.5b7f4f35.chunk.js",
+    "main.js.map": "/jacks-site/static/js/main.5b7f4f35.chunk.js.map",
     "runtime-main.js": "/jacks-site/static/js/runtime-main.4d047d01.js",
     "runtime-main.js.map": "/jacks-site/static/js/runtime-main.4d047d01.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/jacks-site/static/css/2.ae9f1eb3.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.11046fb4.chunk.js.map": "/jacks-site/static/js/3.11046fb4.chunk.js.map",
     "index.html": "/jacks-site/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/jacks-site/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.87b658b0.chunk.css.map": "/jacks-site/static/css/main.87b658b0.chunk.css.map",
+    "static/css/main.4e5f0f37.chunk.css.map": "/jacks-site/static/css/main.4e5f0f37.chunk.css.map",
     "static/js/2.c6948b9c.chunk.js.LICENSE.txt": "/jacks-site/static/js/2.c6948b9c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4d047d01.js",
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.c6948b9c.chunk.js",
-    "static/css/main.87b658b0.chunk.css",
-    "static/js/main.8eb7580f.chunk.js"
+    "static/css/main.4e5f0f37.chunk.css",
+    "static/js/main.5b7f4f35.chunk.js"
   ]
 }
