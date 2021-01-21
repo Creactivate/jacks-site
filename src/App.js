@@ -107,7 +107,7 @@ function App() {
                 <>
                   <img
                     className='imageThumbnail'
-                    src={'jacks-site/images/'+image}
+                    src={'./images/'+image}
                     alt=''
                     activeindex={index+1} 
                     onClick={()=>{onShowChange(true,index)}}
@@ -118,7 +118,7 @@ function App() {
 
               <LightBoxModal 
                 images={imageURLs.map(url => ({
-                  src:'jacks-site/images/'+url,
+                  src:'./images/'+url,
                   alt:'',description:'',
                   title:''
                 }))} 
@@ -130,8 +130,8 @@ function App() {
           <Route path="/jacks-site/">
             <div className="firstScreen">
               <div className="cont">
-                <img src="jacks-site/images/jack-signature.png" className="firstScreenLogo fade-in" alt="" />
-                <img onLoad={flicker} className="firstScreenImage" src="jacks-site/images/jack-poppleton-untitled-2.jpg" alt=""/>
+                <img src="./images/jack-signature.png" className="firstScreenLogo fade-in" alt="" />
+                <img onLoad={flicker} className="firstScreenImage" src="./images/jack-poppleton-untitled-2.jpg" alt=""/>
               </div>
               
               <a className="firstScreenClose" href="/jacks-site/enter">Enter Site</a>
